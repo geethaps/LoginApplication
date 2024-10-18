@@ -1,0 +1,84 @@
+/* Login.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('hero1.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#loginpage {
+    color: rgb(20, 5, 91);
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #1a1919;
+    border-radius: 50px;
+}
+
+button {
+    padding: 10px;
+    background-color: #49648b;
+    color: rgb(20, 17, 17);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #410a6e;
+}
+
+p {
+    text-align: center;
+    color: rgb(65, 27, 95);
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Positioning the logo in the right upper corner */
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}

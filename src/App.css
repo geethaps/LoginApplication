@@ -1,0 +1,50 @@
+/* Global App Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb36qUdfVFxzWgr9hZABdmvZ8z1AUwHFt-aQ&s');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Form Container */
+.form-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Input Styles */
+input, select {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Employee Details */
+.details-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Failed Page */
+.failed-page {
+  text-align: center;
+  margin-top: 50px;
+}
